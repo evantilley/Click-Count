@@ -15,6 +15,7 @@
 		9CA2E5CA23B312BD0061174D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2E5C823B312BD0061174D /* LaunchScreen.storyboard */; };
 		9CA2E5D523B312BD0061174D /* incrementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2E5D423B312BD0061174D /* incrementTests.swift */; };
 		9CA2E5E023B312BE0061174D /* incrementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2E5DF23B312BD0061174D /* incrementUITests.swift */; };
+		9CA2E5EE23B312DB0061174D /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2E5ED23B312DB0061174D /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CA2E5DB23B312BD0061174D /* incrementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = incrementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA2E5DF23B312BD0061174D /* incrementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incrementUITests.swift; sourceTree = "<group>"; };
 		9CA2E5E123B312BE0061174D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA2E5ED23B312DB0061174D /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9CA2E5BD23B312BB0061174D /* AppDelegate.swift */,
 				9CA2E5BF23B312BB0061174D /* SceneDelegate.swift */,
 				9CA2E5C123B312BB0061174D /* ContentView.swift */,
+				9CA2E5ED23B312DB0061174D /* Counter.swift */,
 				9CA2E5C323B312BD0061174D /* Assets.xcassets */,
 				9CA2E5C823B312BD0061174D /* LaunchScreen.storyboard */,
 				9CA2E5CB23B312BD0061174D /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA2E5EE23B312DB0061174D /* Counter.swift in Sources */,
 				9CA2E5BE23B312BB0061174D /* AppDelegate.swift in Sources */,
 				9CA2E5C023B312BB0061174D /* SceneDelegate.swift in Sources */,
 				9CA2E5C223B312BB0061174D /* ContentView.swift in Sources */,
